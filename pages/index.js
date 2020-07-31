@@ -11,7 +11,7 @@ function Home(props) {
         <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
       </Head>
       <div class="mt-10">
-        <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <ul class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
           {props.movies.map((movie) => {
             return (
               <li class="col-span-1 bg-white rounded-lg shadow">
